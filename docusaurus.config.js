@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
 
   organizationName: 'Mother-AI-OS',
-  projectName: 'mother',
+  projectName: 'mother-website',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,7 +54,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/Mother-AI-OS/mother/tree/main/website/',
+          editUrl: 'https://github.com/Mother-AI-OS/mother-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/Mother-AI-OS/mother/tree/main/website/',
+          editUrl: 'https://github.com/Mother-AI-OS/mother-website/tree/main/',
         },
         // gtag preset removed 2026-08-11 — same deactivated account as above.
         theme: {
